@@ -1,5 +1,5 @@
 # Discord invite Joiner . 
-Simple and easy and fast . 🧐
+Discord invite joiner fast with multiple threads , and using undetected captcha solver ( FCAPTCHA ) . Enjoy using it . 
 
 # SetUp 
 just download python , and install required libs , and fill the values that need to be filled in main.py , then run main.py normally 
