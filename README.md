@@ -1,4 +1,6 @@
 # Discord invite Joiner . 
+⚠️ This version is currently patched i am gonna update it as soon as possible ⚠️
+
 Discord invite joiner fast with multiple threads , and using undetected captcha solver ( FCAPTCHA ) . Enjoy using it . 
 
 # SetUp 
