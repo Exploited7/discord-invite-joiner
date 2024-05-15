@@ -147,7 +147,7 @@ def main(tokens, invite):
                     headers = {
                     "authority": "discord.com",
                         "method": "POST",
-                        "path": "/api/v9/invites/K4jkdZzu",
+                        "path": f"/api/v9/invites/{invite}",
                         "scheme": "https",
                         "Accept": "*/*",
                         "Accept-Encoding": "gzip, deflate, br, zstd",
@@ -172,7 +172,7 @@ def main(tokens, invite):
                         "X-Discord-Timezone": "Africa/Cairo",
                         "X-Super-Properties": "eyJvcyI6IldpbmRvd3MiLCJicm93c2VyIjoiQ2hyb21lIiwiZGV2aWNlIjoiIiwic3lzdGVtX2xvY2FsZSI6ImVuLVVTIiwiYnJvd3Nlcl91c2VyX2FnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEyNC4wLjAuMCBTYWZhcmkvNTM3LjM2IiwiYnJvd3Nlcl92ZXJzaW9uIjoiMTI0LjAuMC4wIiwib3NfdmVyc2lvbiI6IjEwIiwicmVmZXJyZXIiOiJodHRwczovL2Rpc2NvcmQuY29tL2NoYW5uZWxzL0BtZSIsInJlZmVycmluZ19kb21haW4iOiJkaXNjb3JkLmNvbSIsInJlZmVycmVyX2N1cnJlbnQiOiIiLCJyZWZlcnJpbmdfZG9tYWluX2N1cnJlbnQiOiIiLCJyZWxlYXNlX2NoYW5uZWwiOiJzdGFibGUiLCJjbGllbnRfYnVpbGRfbnVtYmVyIjoyOTMzNjIsImNsaWVudF9ldmVudF9zb3VyY2UiOm51bGwsImRlc2lnbl9pZCI6MH0="
                         }
-                    join = session.post(f"https://discord.com/api/v9/invites/K4jkdZzu",headers=headers,json=data)
+                    join = session.post(f"https://discord.com/api/v9/invites/{invite}",headers=headers,json=data)
                     if join.status_code == 200:
                         print(f"{Fore.RESET}({Fore.LIGHTGREEN_EX}SUCCESS{Fore.RESET}) {Fore.LIGHTYELLOW_EX} Joined . ")
 
