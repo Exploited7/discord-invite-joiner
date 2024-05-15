@@ -3,6 +3,8 @@ Discord invite joiner fast with multiple threads, multi invites from txt file,  
 
 # SetUp 
 just download python , and install required libs , and fill the values that need to be filled in main.py , then run main.py normally 
+
+# Preview
 ![image](https://github.com/Exploited7/discord-invite-joiner/assets/143853197/927fbaa5-e6fa-4cbf-b545-dd7fc86e6d58)
 
 
